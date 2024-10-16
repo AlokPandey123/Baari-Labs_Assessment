@@ -1,0 +1,36 @@
+{
+  "employee": {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john.doe@example.com"
+  },
+  "attendance": {
+    "status": "out"
+
+  },
+  "dailyUpdates": [
+    {
+      "id": 1,
+      "date": "2023-06-30",
+      "update": "Completed the frontend for Project A"
+    }
+   
+  ],
+  "timesheet": [
+    {
+      "id": 1,
+      "date": "2023-06-30",
+      "projects": [
+        {
+          "name": "Project A",
+          "hours": 4
+        },
+        {
+          "name": "Project B",
+          "hours": 4
+        }
+      ]
+    }
+    
+  ]
+}
